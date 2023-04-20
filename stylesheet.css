@@ -1,0 +1,173 @@
+/* Navigation */
+.navigation{
+	text-align: center;
+	list-style-position: inside;
+}
+
+.navigation li{
+	display: inline-block;
+	margin-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navigation a{
+	margin-left: 15px;
+	color: black;
+	/*margin-right: 15px;*/
+}
+
+.navigation a:hover{
+	opacity: 0.5;
+	text-decoration: underline;
+}
+.navigation li:first-of-type{
+	margin-left: 0px;
+}
+
+
+/*Header*/
+.coloured-background{
+	background-color: #401215;
+	background-size: auto;
+	background-size: 100%;
+}
+
+.centered-box{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.centered-box img{
+	width: 300px;
+	border-radius: 280px;
+	border: 3px solid white;
+}
+
+.centered-box h1{
+	color: white;
+	margin-top: 20px;
+}
+.centered-box h6{
+	color: white;
+}
+/*Albums*/
+.albums img{
+	width: 140px;
+	border: 1.0px solid black;
+}
+.albums{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.albums h3{
+	margin: 10px 0 10px 0;
+}
+
+.albums h5{
+	padding-bottom: 10px;
+	color: black;
+	font-family: 'Lato', sans-serif;font-weight: 400;
+
+}
+
+
+/*About the trilogy*/
+.about img{
+	width: 100%;
+	color: white;
+}
+
+.about .row{
+	padding: 30px;
+}
+.about p{
+	color: white;
+	font-family: 'Lato', sans-serif;font-weight: 400;
+
+}
+h2{
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+}
+.diff-background{
+	background-color: #271916;
+}
+
+.grad-background{
+	background-color: #582175;
+}
+.about{
+	margin-top: 50px;
+}
+
+/*Contact us*/
+
+.contact img{
+	width: 100%;
+	margin-bottom: 30px;
+	margin: ;
+}
+
+.contact-heading{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: black;
+}
+.contact h2{
+	color: black;
+}
+.contact-background{
+	background-color: #F3F3F3;
+	padding: 5px 40px 0 40px;
+}
+
+.contact p{
+	color: black;
+}
+
+.contact p{
+	margin-left: 20px;
+	text-align: center;
+	 /*margin-top: 20px;*/
+/*	 font-size: 20px;*/
+	font-family: 'Lato', sans-serif;
+
+}
+.contact a{
+	color: midnightblue;
+}
+.contact a:hover{
+	opacity: .7;
+	color: #2189A7;
+}
+.contact b{
+	font-family: 'Lato', sans-serif;
+
+}
+
+/*Footer*/
+.footer{
+	background-color: lightgrey;
+}
+.footer p{
+	text-align: center;
+	margin-top: 20px;
+	margin bottom: 20px;
+	padding-bottom: 20px;
+	color: #3C3C3C;
+	font-family: 'Lato', sans-serif;font-weight: 700;
+
+}
+.footer a{
+	color: midnightblue;
+}
+.footer a:hover{
+	/*background-color: transparent;*/
+	opacity: 0.2;
+}
